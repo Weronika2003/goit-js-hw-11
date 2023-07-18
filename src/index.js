@@ -1,9 +1,9 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import Notiflix from 'notiflix';
-import ImagesAPIService from './ImagesAPIService';
-import createMarkup from './CreateMarkup';
-import LoadMoreBtn from './loadMoreBtn';
+import ImagesAPIService from './js/ImagesAPIService';
+import createMarkup from './js/CreateMarkup';
+import LoadMoreBtn from './js/loadMoreBtn';
 
 const imagesAPIService = new ImagesAPIService();
 const loadMoreBtn = new LoadMoreBtn({
