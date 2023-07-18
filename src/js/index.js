@@ -3,7 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import Notiflix from 'notiflix';
 import ImagesAPIService from './ImagesAPIService';
 import createMarkup from './CreateMarkup';
-import LoadMoreBtn from './loadMoreBtn';
+import LoadMoreBtn from '../loadMoreBtn';
 
 const imagesAPIService = new ImagesAPIService();
 const loadMoreBtn = new LoadMoreBtn({
